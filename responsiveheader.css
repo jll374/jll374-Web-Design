@@ -1,0 +1,162 @@
+
+img {
+  max-width:100%;
+  height:auto;
+  }
+
+.navbar ul li a:hover { 
+ color:pink; 
+} 
+
+/*Phone Header*/
+@media screen and (max-width:375px) {
+#tinylogo{ /*phone: girl on bike logo*/
+  max-width:35%;
+  height:auto;
+ }
+
+#tinylogo2 {
+  display:none;
+ }
+
+#logo { /*phone version,take away large logo*/
+  display:none;
+}
+
+.navbar ul{
+  text-align: center;
+  display: block;
+  list-style-type: none;
+  font-family: 'Lobster', cursive;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding:0px 5px;
+  }
+
+  
+.navbar ul li a{
+  color:white;
+  text-decoration: none;
+  }
+
+nav {
+  background-color:gray;
+  background-image: url("images/worldmap2_small.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:5px;
+  } 
+}
+
+
+
+
+/*Tablet Header*/
+
+@media screen and (min-width:376px) {
+#tinylogo{ /*girl on bike logo*/
+  max-width:25%;
+  height:auto;
+  }
+
+#tinylogo2 {
+  display:none;
+  }
+
+#logo { /*tablet version,take away large logo*/
+  display:none;
+  }
+
+.navbar ul{ /* tablet version, nav bar*/
+  text-align: center;
+  display: block;
+  list-style-type: none;
+  font-family: 'Lobster', cursive;
+  font-size: 1.5rem;
+  padding:0px 5px;
+  }
+
+  
+.navbar ul li a{
+  color:white;
+  text-decoration: none;
+  }
+
+nav {
+  background-color:gray;
+  background-image: url("images/worldmap2_medium.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:5px;
+  }
+}
+
+
+
+
+
+
+  /* Desktop Header*/
+@media screen and (min-width: 851px) {
+#logo {
+  display:block;
+  height: auto;
+  width: 28%;
+  margin: 20px auto 5px auto;
+  }
+
+
+nav { 
+  background-color:gray;
+  }
+
+nav { 
+  background-image: url("images/worldmap2_medium.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  } 
+
+.navbar { 
+  height: 7.3rem; 
+  width:auto;
+  text-align: right;
+  margin: auto;
+  } 
+ 
+.navbar ul{
+  display:flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
+  padding-top:20px;
+  }
+
+.navbar ul li { 
+  display: inline-block; 
+  position: relative;
+ } 
+
+
+.navbar ul li a { 
+  color:white; 
+  display: inline-block;
+  font-size: 1.5rem; 
+  padding: 20px; 
+  text-decoration: none; 
+  } 
+
+#tinylogo{
+  display: none;
+  }
+
+
+#tinylogo2 {
+  display:block;
+  position:absolute;
+  width:10%;
+  height: auto;
+  left:10px;
+  top: 30px;
+  }
+}

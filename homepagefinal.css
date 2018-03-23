@@ -1,0 +1,68 @@
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  height:auto;
+  max-width:100%;
+  }
+
+.opening p {
+  background-color: pink;
+  font-family:'Georgia','Times New Roman';
+  font-size:1rem;
+  }
+
+ .opening {
+  display: block;
+ }
+
+@media screen and (min-width:700px){
+  .opening{
+    height: auto;
+    margin: 0 auto;
+    width:600px;
+  }
+}
+
+main{
+  background-color:pink;
+  color:black;
+  display: block;
+  font-family: 'Lobster', cursive;
+  font-size:4rem;
+  font-weight: normal;
+  padding:10px;
+  text-align: center;
+  }
+
+.maincontent{
+  background-image: url('images/banner.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  } 
+
+.gallery img {
+  background-color: white;
+  margin-bottom: 160px;
+  padding:5px;
+  }
+
+h1{
+  font-size: 7rem;
+  }
+
+footer {
+  background-color: pink;
+  font-family:'Georgia','Times New Roman';
+  font-size:1rem;
+  padding:2px 0 1px 10px;
+  text-align:left;
+  }
+
+
+
+
+
+
